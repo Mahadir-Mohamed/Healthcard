@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Health Profile Card</title>
+
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .card {
+            width: 350px;
+            background-color: white;
+            border: 2px solid #dcdcdc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 50px auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        ul {
+            font-size: 18px;
+        }
+
+        button {
+            background-color: darkblue;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card">
+
+        <h1>Health Profile Card</h1>
+
+        <img src="https://via.placeholder.com/100" alt="profile image">
+
+        <h2>Mahi</h2>
+
+        <p><b>Age:</b> 25</p>
+
+        <p><b>Blood Group:</b> O+</p>
+
+        <p><b>BMI:</b> 22</p>
+
+        <p><b>Emergency Contact:</b> 9876543210</p>
+
+        <h3>Allergies</h3>
+
+        <ul>
+            <li>Penicillin</li>
+            <li>Dust Allergy</li>
+        </ul>
+
+        <h3>Health Tips</h3>
+
+        <ul>
+            <li>Drink 3L water daily</li>
+            <li>Sleep 7-8 hours</li>
+            <li>Walk 30 minutes everyday</li>
+        </ul>
+
+        <button>Download Report</button>
+
+    </div>
+
+</body>
+
+</html>
